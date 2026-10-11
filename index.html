@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio | Mario Hyuuga</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a class="logo" href="#home">M<span>.</span></a>
+
+      <button class="menu-toggle" id="menuToggle">☰</button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang</a>
+        <a href="#skills">Keahlian</a>
+        <a href="#projects">Proyek</a>
+        <a href="#contact">Kontak</a>
+        <button class="theme-toggle" id="themeButton"
+          title="Ganti mode">☀️</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">PELAJAR • WEB DEVELOPER PEMULA</p>
+
+        <h1>Halo, saya <span>Mario Hyuuga</span></h1>
+        <h2>Membangun ide menjadi website.</h2>
+
+        <p class="intro">
+          Saya Mario Hyuuga Reza Angga Pratama, Saya seorang pelajar
+          yang sedang belajar membuat website menggunakan HTML,
+          CSS, dan JavaScript. Saya senang mencoba hal baru dan
+          mengembangkan kemampuan melalui berbagai proyek.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Lihat Proyek ↗</a>
+          <a class="button secondary" href="#contact">Hubungi Saya</a>
+        </div>
+
+        <div class="quick-info">
+          <div>
+            <strong>3+</strong>
+            <span>Teknologi dipelajari</span>
+          </div>
+          <div>
+            <strong>Terus</strong>
+            <span>Belajar dan berkembang</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="profile-frame">
+          <div class="profile-fallback" id="profileFallback">MH</div>
+          <img id="profilePhoto" src="foto.jpeg" alt="Foto profil Mario">
+        </div>
+
+        <div class="floating-card card-code">
+          <span class="mini-icon">&lt;/&gt;</span>
+          <div>
+            <strong>Web Development</strong>
+            <small>Belajar sambil berkarya</small>
+          </div>
+        </div>
+
+        <div class="floating-card card-badge">
+          ✦ Kreatif & ingin tahu
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">KENALI SAYA</p>
+        <h2>Tentang <span>Saya</span></h2>
+        <p>Berawal dari rasa ingin tahu, berkembang lewat latihan.</p>
+      </div>
+
+      <div class="about-grid">
+        <article class="about-card">
+          <div class="about-symbol">⌘</div>
+          <h3>Siapa saya?</h3>
+          <p>
+            Saya adalah seorabg pelajar bidang Pengembangan Perangkat Lunak
+          . Saya sedang mempelajari dasar pemrograman
+            dan membuat halaman web yang rapi, menarik, serta responsif.
+          </p>
+        </article>
+
+        <article class="about-card">
+          <div class="about-symbol">↗</div>
+          <h3>Tujuan saya</h3>
+          <p>
+            Saya ingin terus meningkatkan kemampuan, memahami cara
+            kerja website, dan mendapatkan pengalaman melalui tugas
+            sekolah maupun proyek pribadi.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">YANG SEDANG DIPELAJARI</p>
+          <h2>Keahlian <span>Saya</span></h2>
+          <p>Dasar-dasar yang terus saya latih.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-icon html-icon">5</div>
+            <h3>HTML</h3>
+            <p>Menyusun struktur halaman web.</p>
+            <div class="skill-track"><span style="width:78%"></span></div>
+            <small>Dasar hingga menengah</small>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon css-icon">✳</div>
+            <h3>CSS</h3>
+            <p>Mengatur tampilan dan tata letak.</p>
+            <div class="skill-track"><span style="width:65%"></span></div>
+            <small>Terus berlatih</small>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon js-icon">JS</div>
+            <h3>JavaScript</h3>
+            <p>Membuat interaksi pada website.</p>
+            <div class="skill-track"><span style="width:42%"></span></div>
+            <small>Dasar</small>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon git-icon">⌘</div>
+            <h3>Git & GitHub</h3>
+            <p>Mengenal versi kode dan repositori.</p>
+            <div class="skill-track"><span style="width:38%"></span></div>
+            <small>Dalam proses belajar</small>
+          </article>
+        </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">HASIL LATIHAN</p>
+        <h2>Proyek <span>Pilihan</span></h2>
+        <p>Beberapa contoh proyek untuk portofolio saya.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-art">
+  <img src="foto1.png" alt="Screenshot Website Portofolio">
+</div>
+          <div class="project-content">
+            <div class="project-tags"><span>HTML</span><span>CSS</span></div>
+            <h3>modul-1</h3>
+            <p>
+               An introductoy projrtc for understanding web pege sructure and development fundamentals.
+            </p>
+            <a href="#contact" class="text-link">Lihat detail ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-art art-two">
+            <img src="foto2.png" alt="Screenshot Website Portofolio">
+</div>
+          <div class="project-content">
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <h3>modul-2</h3>
+            <p>
+               A project focused on CSS styling, Flexbox, Layout, And responsive design.
+            </p>
+            <a href="#contact" class="text-link">Lihat detail ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-art art-three">
+            <img src="foto3.png" alt="Screenshot Website Portofolio">
+</div>
+          <div class="project-content">
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <h3>modul-3</h3>
+            <p>
+                An advenced project combining HTML, CSS, and JavaScript.
+            </p>
+            <a href="#contact" class="text-link">Lihat detail ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">PUNYA IDE?</p>
+          <h2>Mari terhubung<br><span>dan berkolaborasi.</span></h2>
+          <p class="contact-copy">
+            Terima kasih sudah mengunjungi portofolio saya.
+            Kamu bisa menghubungi saya melalui tautan berikut.
+          </p>
+        </div>
+
+        <div class="contact-list">
+          <a class="contact-item" href="mailto:18mariohyuugainfkanesa@gmail.com">
+            <span class="contact-icon">✉</span>
+            <span><small>Email</small><strong>emailkamu@example.com</strong></span>
+            <span class="arrow">↗</span>
+          </a>
+
+          <a class="contact-item" href=https://www.instagram.com/mariohyuuga?stkn=cDUzMzA0N3NheWlp
+             target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon">◎</span>
+            <span><small>Instagram</small><strong>@usernamekamu</strong></span>
+            <span class="arrow">↗</span>
+          </a>
+
+          <a class="contact-item" href="https://www.tiktok.com/@mar1o_4410?_r=1&_t=ZS-9ASc0iw5COS"
+             target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon">T</span>
+            <span><small>tiktok</small><strong>Profil tiktok</strong></span>
+            <span class="arrow">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  
+</body>
+</html>
